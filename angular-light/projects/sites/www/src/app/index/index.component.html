@@ -1,30 +1,50 @@
 <div class="app-index">
-  <mdb-carousel [controls]="true" [indicators]="true" [dark]="true">
-    <mdb-carousel-item>
-      <img src="/assets/logo/banner-back.png" class="d-block w-100" alt="..." />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Tagline describing your e-shop</h5>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis
-          ac neque.
-        </p>
-        <button class="btn btn-primary">Shop Sales</button>
-        <button class="btn btn-secondary">All Products</button>
-      </div>
-    </mdb-carousel-item>
-    <mdb-carousel-item>
-      <img src="/assets/logo/banner-back.png" class="d-block w-100" alt="..." />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-    </mdb-carousel-item>
-    <mdb-carousel-item>
-      <img src="/assets/logo/banner-back.png" class="d-block w-100" alt="..." />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </div>
-    </mdb-carousel-item>
-  </mdb-carousel>
+  <div class="container part1">
+    <h1 class="title">Find your adventure</h1>
+    <div class="input-group">
+      <input type="search" id="form1" class="form-control" />
+      <button type="button" class="btn btn-primary">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <mdb-carousel [controls]="true">
+      <mdb-carousel-item>
+        <img src="https://paisaje.tenerife.es/wp-content/uploads/2016/08/Benijos.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Tagline describing your app</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis
+            ac neque.
+          </p>
+          <button class="btn btn-primary">Shop Sales</button>
+          <button class="btn btn-secondary">All Products</button>
+        </div>
+      </mdb-carousel-item>
+      <mdb-carousel-item>
+        <img src="https://simpleculinaria.com/wp-content/uploads/2019/12/Paisajes-productivos-de-Canarias_Imagen-Guillermo-Pozuelo_-simple-culinaria.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Tagline describing your guide</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis
+            ac neque.
+          </p>
+          <button class="btn btn-primary">Button 1</button>
+          <button class="btn btn-secondary">Button 2</button>
+        </div>
+      </mdb-carousel-item>
+      <mdb-carousel-item>
+        <img src="https://www.liligo.es/magazine-viajes/wp-content/uploads/sites/43/2019/06/tenerife-bosque-encantado-1.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Tagline describing your guide</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis
+            ac neque.
+          </p>
+          <button class="btn btn-primary">Button 1</button>
+          <button class="btn btn-secondary">Button 2</button>
+        </div>
+      </mdb-carousel-item>
+    </mdb-carousel>
+  </div>
+
 </div>

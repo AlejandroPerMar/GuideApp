@@ -7,6 +7,8 @@ import { AppIndexComponent } from './index.component';
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 
 
+
+
 @NgModule({
   declarations: [
     AppIndexComponent
@@ -14,7 +16,7 @@ import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
   imports: [
     CommonModule,
     AppIndexRoutingModule,
-    MdbCarouselModule
+    MdbCarouselModule,
   ],
   exports: [
   ]

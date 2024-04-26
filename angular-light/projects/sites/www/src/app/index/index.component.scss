@@ -1,2 +1,57 @@
 .app-index {
+    .part1 {
+        padding-top: 30px;
+        background-color: #007bff;
+
+        .title {
+            text-align: center;
+        }
+
+        .input-group {
+            margin-top: 20px;
+            margin-left: 15%;
+            width: 70%;
+        }
+
+        mdb-carousel {
+            margin-top: 20px;
+
+            mdb-carousel-item {
+                background-color: #f80b0b;
+                max-height: 40vh;
+
+                img{
+                    size: contain;
+                }
+
+                .carousel-caption {
+                    background-color: #2b26266c;
+                    top: 45%;
+
+                    h5 {
+                        font-size: 24px;
+                        margin-bottom: 10px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+
+                    button {
+                        margin-right: 10px;
+                    }
+
+                    .btn-primary {
+                        background-color: #007bff;
+                        border-color: #007bff;
+                    }
+
+                    .btn-secondary {
+                        background-color: #6c757d;
+                        border-color: #6c757d;
+                    }
+                }
+            }
+        }
+    }
 }
